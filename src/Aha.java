@@ -19,6 +19,42 @@ public class Aha {
 		return "Aha [title=" + title + ", ISBN=" + ISBN + ", values=" + Arrays.toString(values) + "]";
 	}
 
+	
+	
+	public String getTitle() 
+	{
+		return title;
+	}
+
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+
+	public int getISBN() 
+	{
+		return ISBN;
+	}
+
+
+	public void setISBN(int iSBN) 
+	{
+		ISBN = iSBN;
+	}
+
+
+	public Integer[] getValues() 
+	{
+		return values;
+	}
+
+
+	public void setValues(Integer[] values) 
+	{
+		this.values = values;
+	}
+
 
 	public static void main(String[] args) 
 	{

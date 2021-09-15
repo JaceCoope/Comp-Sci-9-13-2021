@@ -83,4 +83,4 @@ Terminology
 * Superclass can also be called:
   * Parent class
   * Base class
-
+* **Subclasses** get **direct access** to all of the **public** and **protected** data and methods from **superclass**

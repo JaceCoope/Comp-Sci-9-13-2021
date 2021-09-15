@@ -11,6 +11,7 @@ public class Aha {
 		this.title = title;
 		ISBN = iSBN;
 		this.values = values;
+		System.out.println("does it work?");
 	}
 
 	

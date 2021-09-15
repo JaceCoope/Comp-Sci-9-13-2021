@@ -55,3 +55,32 @@ for(int index = 0; index < lastIndex - 1; ++index)
 
 ## Notes
 
+### Relationship Between Classes
+
+So far: we have looked at class aggregation
+* Class A has-a instance of class B
+* This allows A to make use of what has already been done in class B
+
+### Sharing Data Between Classes
+Aggregation (Has-A) is one way to share data between classes
+* Can only use public parts of the class
+* Is this a limitation or an advantage
+
+Another way to share data is inheritance
+* New class keyword: extends
+  * Defines the inheritance relationship
+  * UML: Arrow with open head
+* Class A extends class B
+  * Inherits everything from class B AND allows us to add to it
+* New method/data visibility keyword: **protected**
+  * This data/item method is visible both inside the class and to classes that extend this class
+  * Also visible to other classes in the same package
+  * (#) in UML (as opposed to + || -)
+
+Terminology
+* Subclass can be called:
+  * Child class
+* Superclass can also be called:
+  * Parent class
+  * Base class
+
